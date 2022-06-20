@@ -2,7 +2,6 @@ import React from "react"
 import Navbar from "./components/Navbar"
 import MidSection from "./components/MidSection"
 import Card from "./components/Card"
-import KatieImg from "./images/katie-zaferes.png"
 
 export default function App() {
     return (
@@ -10,7 +9,7 @@ export default function App() {
             <Navbar />
             <MidSection />
             <Card 
-                img={KatieImg}
+                img="katie-zaferes.png"
                 rating="5.0"
                 reviewCount={6}
                 country="USA"
